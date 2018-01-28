@@ -9,7 +9,7 @@ module ContactsViews
 
   def contacts_show_view(contact)
     puts
-    puts "#{contact.full_name} - last updated: #{contact.updated_at}"
+    puts "#{contact.id} #{contact.full_name} - last updated: #{contact.updated_at}"
     puts "------------------------------"
     puts "Phone: #{contact.phone_number}"
     puts "Email: #{contact.email}"
